@@ -36,12 +36,15 @@ nav ul li a{
     color: white !important;
 }
 nav ul .search_div{
-    margin-left: 215px;
+    margin-left: 70%;
     margin-bottom: 10px;
+}
+nav ul .search_div .search_box input {
+	right: 60%;
 }
 nav ul .search_div .search_box input:focus{
     border-bottom: 2px solid #ff5421;
-    width: 250px;
+    max-width: 271%;
 }
 nav ul .search_div .search_box input:focus:hover{
     border-bottom: 2px solid #ff5421;
