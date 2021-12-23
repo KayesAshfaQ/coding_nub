@@ -1,0 +1,944 @@
+/* extra small device */
+@media (min-width: 320px) and (max-width: 575px){
+    .spinner-wrapper img{
+        max-width: 30%;
+    }
+/* ==========================================
+            header part start
+=============================================*/
+header{
+    display: none;
+}
+/* ==========================================
+            header part end
+=============================================*/
+
+/* ==========================================
+            navbar part start
+=============================================*/
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar-toggler i{
+    color: #171F32;
+}
+.sticky .navbar-toggler i{
+    color: #ff5421;
+}
+nav ul{
+    background: #171F32;
+}
+nav ul li{
+    text-align: center;
+    margin-left: 0;
+}
+nav ul li a{
+    color: white !important;
+}
+nav ul .search_div{
+    margin-left: 70%;
+    margin-bottom: 10px;
+}
+nav ul .search_div .search_box input {
+	right: 60%;
+}
+nav ul .search_div .search_box input:focus{
+    border-bottom: 2px solid #ff5421;
+    max-width: 271%;
+}
+nav ul .search_div .search_box input:focus:hover{
+    border-bottom: 2px solid #ff5421;
+}
+nav ul .search_div .search_icon{
+    background: #ff5421;
+}
+nav ul .search_div .search_box input{
+    color: white;
+}
+/* ==========================================
+            navbar part end
+=============================================*/
+/* ==========================================
+            footer part start
+=============================================*/
+footer .newsletter .left_part {
+	display: block;
+    text-align: center;
+}
+footer .newsletter .left_part img {
+	margin-right: 0;
+}
+footer .newsletter .left_part h1 {
+	font-size: 25px;
+    padding: 10px 0;
+}
+footer .newsletter {
+	padding: 15px 10px;
+}
+footer .newsletter .right_part input {
+	padding: 12px 10px;
+}
+footer .newsletter .right_part button {
+	padding: 14px 15px;
+	font-size: 14px;
+}
+
+footer .main_footer .logo_part {
+	text-align: left;
+}
+footer .main_footer .logo_part p {
+	margin-left: 0;
+	width: 100%;
+	margin-top: 20px;
+}
+footer .main_footer h3 {
+	text-align: left;
+}
+footer .main_footer h3::before {
+	left: 0;
+}
+footer .main_footer .address_part{
+    margin: 30px 0;
+}
+footer .main_footer .address_part ul li{
+    margin-bottom: 8px;
+    margin-left: 0;
+}
+footer .main_footer .course_part ul li {
+	margin-left: 0;
+}
+footer .main_footer .course_part ul li {
+	margin-bottom: 5px;
+}
+/* ==========================================
+            footer part end
+=============================================*/
+
+/* home page */
+
+/* ==========================================
+            home banner part start
+=============================================*/
+#banner_part .banner_left .banner_content {
+	padding-top: 15px;
+}
+#banner_part .banner_left .banner_content h4 {
+	font-size: 17px;
+}
+#banner_part .banner_left .banner_content h1 {
+	font-size: 23px;
+	line-height: 40px;
+}
+#banner_part .banner_left .banner_content a {
+	font-size: 14px;
+	line-height: 30px;
+}
+#banner_part .banner_right{
+    display: none;
+}
+
+/* ==========================================
+            home banner part end
+=============================================*/
+
+/* ==========================================
+            home course part start
+=============================================*/
+.title h4 {
+	font-size: 14px;
+}
+.title h3 {
+	font-size: 22px;
+	line-height: 10px;
+}
+#course_part .course_item {
+	margin-bottom: 30px;
+}
+#course_part {
+	margin-bottom: 0;
+}
+#course_part .all_button {
+	margin-top: 30px;
+}
+.all_button {
+	padding-bottom: 30px;
+}
+/* ==========================================
+            home course part end
+=============================================*/
+
+/* ==========================================
+            home learn part start
+=============================================*/
+#learn_part {
+	padding: 0px 0;
+}
+#learn_part .learn_details {
+	margin-left: 0;
+}
+#learn_part .learn_details h1 {
+	font-size: 26px;
+}
+#learn_part .learn_details p {
+	font-size: 16px;
+	line-height: 25px;
+}
+#learn_part .learn_details .learn_item {
+	display: block;
+	background: #eee;
+	padding: 20px;
+	margin-top: 20px;
+}
+#learn_part .learn_details .learn_item .img{
+    text-align: center;
+}
+#learn_part .learn_details .learn_item .img img {
+	width: 60px;
+}
+#learn_part .learn_details .learn_item .details {
+	margin-left: 0px;
+}
+#learn_part .learn_details .learn_item .details h3 {
+	font-size: 18px;
+    text-align: center;
+}
+#learn_part .learn_details .learn_item .details p {
+	font-size: 14px;
+    text-align: center;
+}
+#learn_part {
+	margin-bottom: 172px;
+}
+/* ==========================================
+            home learn part end
+=============================================*/
+
+/* course page */
+
+/* ==========================================
+            course part start
+=============================================*/
+#course_part .course_row {
+	margin-bottom: 135px;
+}
+/* ==========================================
+            course part end
+=============================================*/
+
+/* single course page */
+
+/*====================================
+        course details part start
+======================================= */
+#course_details .video_part {
+	margin-top: 50px;
+}
+#course_details .details ul .nav-item {
+	width: 100%;
+    background: #eee;
+    margin-bottom: 10px;
+}
+#course_details .details .tab-content ul li {
+	padding-top: 18px;
+}
+#course_details .details .tab-content .instructor .teacher {
+	margin-bottom: 20px;
+}
+#course_details .details .tab-content .instructor .teacher .overlay {
+	padding: 38px 10px;
+}
+#course_details .details .tab-content .instructor .teacher .overlay h5 {
+	font-size: 20px;
+}
+#course_details .details .tab-content .instructor .teacher .overlay .media i {
+	margin-right: 18px;
+}
+/*====================================
+        course details part end
+======================================= */
+
+/* blog page */
+
+/* ==========================================
+            blog part start
+=============================================*/
+#blog_part .blog_right .main_post .details .icons_list {
+	display: block;
+}
+#blog_part .blog_right .main_post .details .icons_list .icone {
+	margin-top: 10px;
+}
+/* ==========================================
+            blog part end
+=============================================*/
+
+/* about page */
+#about_banner .overlay h1 {
+	padding: 80px 0;
+}
+#about_banner{
+    background-size: cover;
+}
+/* ===========================================
+                welcome part start
+==============================================*/
+#welcome_part .left_part {
+	margin-top: 20px;
+}
+#welcome_part .row{
+    flex-direction: column-reverse;
+}
+#admission_part .left_img{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* ===========================================
+                welcome part end
+==============================================*/
+
+/* contact page */
+
+/*====================================
+            address part start
+=======================================*/
+#address_part {
+	margin-bottom: 0;
+}
+#address_part .right_part {
+	margin-top: 0px;
+}
+#address_part .right_part .media_icon .icon{
+    text-align: left;
+    margin-left: 20px;
+}
+#address_part .right_part .media_icon .icon i{
+    text-align: center;
+}
+#address_part .row{
+    flex-direction: column-reverse;
+}
+/*====================================
+            address part end
+=======================================*/
+
+/*====================================
+            map part start
+=======================================*/
+#map_part {
+	margin: 60px 0;
+}
+#form_part p {
+	margin-left: 0;
+	width: 100%;
+	font-size: 14px;
+}
+/*====================================
+            map part end
+=======================================*/
+}
+
+/* small device */
+@media (min-width: 576px) and (max-width: 767px){
+    .spinner-wrapper img{
+        max-width: 20%;
+    }
+    /* ==========================================
+                header part start
+    =============================================*/
+    header{
+        display: none;
+    }
+    /* ==========================================
+                header part end
+    =============================================*/
+    
+    /* ==========================================
+                navbar part start
+    =============================================*/
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        color: #171F32;
+    }
+    .sticky .navbar-toggler i{
+        color: #ff5421;
+    }
+    nav ul{
+        background: #171F32;
+        width: 100%;
+    }
+    nav ul li{
+        text-align: center;
+        margin-left: 0;
+    }
+    nav ul li a{
+        color: white !important;
+    }
+    nav ul .search_div{
+        margin-left: 390px;
+        margin-bottom: 10px;
+    }
+    nav ul .search_div .search_box input:focus{
+        border-bottom: 2px solid #ff5421;
+        width: 385px;
+        margin-right: 35px;
+    }
+    nav ul .search_div .search_box input:focus:hover{
+        border-bottom: 2px solid #ff5421;
+    }
+    nav ul .search_div .search_icon{
+        background: #ff5421;
+    }
+    nav ul .search_div .search_box input{
+        color: white;
+    }
+    /* ==========================================
+                navbar part end
+    =============================================*/
+
+    /* ==========================================
+                footer part start
+    =============================================*/
+    footer .newsletter .left_part {
+        display: block;
+        text-align: center;
+    }
+    footer .newsletter .left_part img {
+        margin-right: 0;
+    }
+    footer .newsletter .left_part h1 {
+        font-size: 28px;
+        padding: 10px 0;
+    }
+    footer .newsletter {
+        padding: 20px;
+    }
+    footer .newsletter .right_part input {
+        padding: 15px 10px;
+    }
+    footer .newsletter .right_part button {
+        padding: 17px 18px;
+        font-size: 14px;
+    }
+    
+    footer .main_footer .logo_part {
+        text-align: left;
+    }
+    footer .main_footer .logo_part p {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer .main_footer h3 {
+        text-align: left;
+    }
+    footer .main_footer h3::before {
+        left: 0;
+    }
+    footer .main_footer .address_part{
+        margin: 40px 0;
+    }
+    footer .main_footer .address_part ul li{
+        margin-bottom: 8px;
+        margin-left: 0;
+    }
+    footer .main_footer .course_part ul li {
+        margin-left: 0;
+    }
+    footer .main_footer .course_part ul li {
+        margin-bottom: 5px;
+    }
+    /* ==========================================
+                footer part end
+    =============================================*/
+    
+    /* ==========================================
+                home banner part start
+    =============================================*/
+    #banner_part .banner_left .banner_content {
+        padding-top: 15px;
+    }
+    #banner_part .banner_left .banner_content h4 {
+        font-size: 18px;
+    }
+    #banner_part .banner_left .banner_content h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    #banner_part .banner_left .banner_content a {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    #banner_part .banner_right{
+        display: none;
+    }
+    
+    /* ==========================================
+                home banner part end
+    =============================================*/
+    
+    /* ==========================================
+                home course part start
+    =============================================*/
+    .title h4 {
+        font-size: 16px;
+    }
+    .title h3 {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    #course_part .course_item {
+        margin-bottom: 30px;
+    }
+    #course_part {
+        margin-bottom: 0;
+    }
+    #course_part .all_button {
+        margin-top: 30px;
+    }
+    .all_button {
+        padding-bottom: 30px;
+    }
+    /* ==========================================
+                home course part end
+    =============================================*/
+    
+    /* ==========================================
+                home learn part start
+    =============================================*/
+    #learn_part {
+        padding: 0px 0;
+    }
+    #learn_part .learn_details {
+        margin-left: 0;
+    }
+    #learn_part .learn_details h1 {
+        font-size: 30px;
+    }
+    #learn_part .learn_details p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #learn_part .learn_details .learn_item {
+        background: #eee;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    #learn_part .learn_details .learn_item .details h3 {
+        font-size: 20px;
+    }
+    #learn_part .learn_details .learn_item .details p {
+        font-size: 16px;
+    }
+    #learn_part {
+        margin-bottom: 162px;
+    }
+    /* ==========================================
+                home learn part end
+    =============================================*/
+    
+    /* course page */
+
+    /* ==========================================
+                course part start
+    =============================================*/
+    #course_part .course_row {
+        margin-bottom: 135px;
+    }
+    /* ==========================================
+                course part end
+    =============================================*/
+
+    /* single course page */
+
+    /*====================================
+            course details part start
+    ======================================= */
+    #course_details .video_part {
+        margin-top: 50px;
+    }
+    #course_details .details ul .nav-item {
+        width: 45%;
+        background: #eee;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #course_details .details .tab-content .instructor .teacher {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /*====================================
+            course details part end
+    ======================================= */
+
+    /* contact page */
+
+    /*====================================
+            address part start
+    ======================================= */
+    #address_part .row{
+        flex-direction: column-reverse;
+    }
+    #address_part .right_part .row{
+        flex-direction: row;
+    }
+    #address_part .right_part .item {
+        margin-top: 0;
+    }
+    #address_part .right_part{
+        margin-top: 0;
+    }
+    /*====================================
+            address part end
+    ======================================= */
+
+    /*====================================
+                map part start
+    ======================================= */
+    #map_part {
+        margin: 70px 0;
+    }
+    /*====================================
+                map part end
+    ======================================= */
+}
+
+/* medium device */
+@media (min-width: 768px) and (max-width: 991px){
+    .spinner-wrapper img{
+        max-width: 20%;
+    }
+    /* ==========================================
+                header part start
+    =============================================*/
+    header{
+        display: none;
+    }
+    /* ==========================================
+                header part end
+    =============================================*/
+    
+    /* ==========================================
+                navbar part start
+    =============================================*/
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        color: #171F32;
+    }
+    .sticky .navbar-toggler i{
+        color: #ff5421;
+    }
+    nav ul{
+        background: #171F32;
+        width: 100%;
+    }
+    nav ul li{
+        text-align: center;
+        margin-left: 0;
+    }
+    nav ul li a{
+        color: white !important;
+    }
+    nav ul .search_div{
+        margin-left: 545px;
+        margin-bottom: 10px;
+    }
+    nav ul .search_div .search_box input{
+        margin-right: 80px;
+    }
+    nav ul .search_div .search_box input:focus{
+        border-bottom: 2px solid #ff5421;
+        width: 400px;
+        margin-right: 50px;
+    }
+    nav ul .search_div .search_box input:focus:hover{
+        border-bottom: 2px solid #ff5421;
+    }
+    nav ul .search_div .search_icon{
+        background: #ff5421;
+    }
+    nav ul .search_div .search_box input{
+        color: white;
+    }
+    /* ==========================================
+                navbar part end
+    =============================================*/
+
+    /* ==========================================
+                footer part start
+    =============================================*/
+    footer .newsletter .left_part {
+        display: block;
+        text-align: center;
+    }
+    footer .newsletter .left_part img {
+        margin-right: 0;
+    }
+    footer .newsletter .left_part h1 {
+        font-size: 28px;
+        padding: 10px 0;
+    }
+    footer .newsletter {
+        padding: 20px;
+    }
+    footer .newsletter .right_part input {
+        padding: 15px 10px;
+    }
+    footer .newsletter .right_part button {
+        padding: 17px 18px;
+        font-size: 14px;
+    }
+    
+    footer .main_footer .logo_part {
+        text-align: left;
+    }
+    footer .main_footer .logo_part p {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    footer .main_footer h3 {
+        text-align: left;
+    }
+    footer .main_footer h3::before {
+        left: 0;
+    }
+    footer .main_footer .address_part{
+        margin: 40px 0;
+    }
+    footer .main_footer .address_part ul li{
+        margin-bottom: 8px;
+        margin-left: 0;
+    }
+    footer .main_footer .course_part ul li {
+        margin-left: 0;
+    }
+    footer .main_footer .course_part ul li {
+        margin-bottom: 5px;
+    }
+    /* ==========================================
+                footer part end
+    =============================================*/
+    
+    /* ==========================================
+                home banner part start
+    =============================================*/
+    #banner_part .banner_left .banner_content {
+        padding-top: 15px;
+    }
+    #banner_part .banner_left .banner_content h4 {
+        font-size: 20px;
+    }
+    #banner_part .banner_left .banner_content h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    #banner_part .banner_left .banner_content a {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #banner_part .banner_right{
+        display: none;
+    }
+    
+    /* ==========================================
+                home banner part end
+    =============================================*/
+    
+    /* ==========================================
+                home course part start
+    =============================================*/
+    .title h4 {
+        font-size: 16px;
+    }
+    .title h3 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    #course_part .course_item {
+        margin-bottom: 30px;
+    }
+    #course_part {
+        margin-bottom: 0;
+    }
+    #course_part .all_button {
+        margin-top: 30px;
+    }
+    .all_button {
+        padding-bottom: 30px;
+    }
+    /* ==========================================
+                home course part end
+    =============================================*/
+    
+    /* ==========================================
+                home learn part start
+    =============================================*/
+    #learn_part {
+        padding: 0px 0;
+    }
+    #learn_part .learn_img{
+        text-align: center;
+    }
+    #learn_part .learn_details {
+        margin-left: 0;
+    }
+    #learn_part .learn_details h1 {
+        font-size: 34px;
+    }
+    #learn_part .learn_details p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #learn_part .learn_details .learn_item {
+        background: #eee;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    #learn_part .learn_details .learn_item .details h3 {
+        font-size: 20px;
+    }
+    #learn_part .learn_details .learn_item .details p {
+        font-size: 16px;
+    }
+    #learn_part {
+        margin-bottom: 162px;
+    }
+    /* ==========================================
+                home learn part end
+    =============================================*/
+    
+    /* course page */
+
+    /* ==========================================
+                course part start
+    =============================================*/
+    #course_part .course_row {
+        margin-bottom: 135px;
+    }
+    /* ==========================================
+                course part end
+    =============================================*/
+
+    /* single course page */
+
+    /*====================================
+            course details part start
+    ======================================= */
+    #course_details .video_part {
+        margin-top: 50px;
+    }
+    /*====================================
+            course details part end
+    ======================================= */
+
+    /* contact page */
+
+    /*====================================
+            address part start
+    ======================================= */
+    #address_part .row{
+        flex-direction: column-reverse;
+    }
+    #address_part .right_part .row{
+        flex-direction: row;
+    }
+    #address_part .right_part .item {
+        margin-top: 0;
+    }
+    #address_part .right_part{
+        margin-top: 0;
+    }
+    #address_part .right_part .media_icon h4::before {
+        left: 41%;
+    }
+    /*====================================
+            address part end
+    ======================================= */
+
+    /*====================================
+                map part start
+    ======================================= */
+    #map_part {
+        margin: 70px 0;
+    }
+    #form_part p {
+        margin-left: 20%;
+        width: 415px;
+    }
+    /*====================================
+                map part end
+    ======================================= */
+}
+/* large device */
+@media (min-width: 992px) and (max-width: 1199px){
+    .spinner-wrapper img{
+        max-width: 10%;
+    }
+    /* ==========================================
+                navbar part start
+    =============================================*/
+    nav ul .search_div {
+        margin-left: 191px;
+    }
+    .navbar-brand {
+        margin-right: 0;
+        width: 18%;
+    }
+    .navbar-brand img{
+        max-width: 100%;
+    }
+    nav ul .search_div .search_box input:focus {
+        width: 237px;
+    }
+    /* ==========================================
+                navbar part end
+    =============================================*/
+
+    /* ==========================================
+                footer part start
+    =============================================*/
+    footer .newsletter .right_part {
+        margin-top: 20px;
+    }
+    /* ==========================================
+                footer part end
+    =============================================*/
+    
+    /* ==========================================
+                home banner part start
+    =============================================*/
+    #banner_part{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    #banner_part .banner_left .banner_content {
+        padding-top: 15px;
+    }
+    #banner_part .banner_left .banner_content h4 {
+        font-size: 20px;
+    }
+    #banner_part .banner_left .banner_content h1 {
+        font-size: 38px;
+        line-height: 60px;
+    }
+    
+    /* ==========================================
+                home banner part end
+    =============================================*/
+
+    /* ==========================================
+                home learn part start
+    =============================================*/
+    #learn_part .learn_details .learn_item {
+        background: #eee;
+    }
+    /* ==========================================
+                home learn part end
+    =============================================*/
+    
+
+}

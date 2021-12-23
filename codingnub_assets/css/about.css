@@ -1,0 +1,117 @@
+
+#about_banner{
+    background: url(../images/about.gif) no-repeat center;
+}
+/* ===========================================
+                welcome part start
+==============================================*/
+#welcome_part{
+    margin-bottom: 50px;
+}
+#welcome_part .left_part{
+    margin-top: 100px;
+}
+#welcome_part .left_part h1{
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #FF5421;
+    padding-bottom: 20px;
+}
+#welcome_part .left_part h1 span{
+    display: block;
+    color: #171F32;
+}
+#welcome_part .left_part p{
+    font-family: 'Rubik', sans-serif;
+    color: #171F32;
+    font-weight: 300;
+}
+#welcome_part .left_part .p2{
+    margin-top: 10px;
+}
+/* ===========================================
+                welcome part end
+==============================================*/
+
+/* ===========================================
+                admission part start
+==============================================*/
+#admission_part{
+    margin-bottom: 50px;
+}
+#admission_part .left_img img{
+    max-width: 80%;
+}
+#admission_part .text_right h1{
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #FF5421;
+    padding-bottom: 20px;
+}
+#admission_part .text_right p{
+    font-family: 'Rubik', sans-serif;
+    color: #171F32;
+    font-weight: 300;
+}
+#admission_part .text_right .p2{
+    margin-top: 10px;
+}
+#admission_part .text_right a{
+    color: white;
+    background: #FF5421;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .4s;
+    margin-top: 20px;
+}
+#admission_part .text_right a:hover{
+    background: #171F32;
+}
+/* ===========================================
+                admission part end
+==============================================*/
+
+/* ===========================================
+                question part start
+==============================================*/
+#question_part{
+    margin-bottom: 200px;
+}
+#question_part h1{
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #FF5421;
+    padding-bottom: 20px;
+}
+#question_part .accordion .accordion-item{
+    margin-bottom: 20px;
+}
+#question_part .accordion .accordion-item h3{
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: white;
+    font-size: 18px;
+}
+#question_part .accordion .accordion-item h2 .accordion-button{
+    background: #171F32 !important;
+}
+#question_part .accordion-button:focus {
+	box-shadow: none;
+}
+#question_part .accordion .accordion-item .accordion-collapse{
+    background: #FF5421;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+/* ===========================================
+                question part end
+==============================================*/

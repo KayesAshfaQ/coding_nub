@@ -1,0 +1,236 @@
+/* ===================================
+            Breadcrumbs part start
+======================================= */
+#about_banner{
+    background: url(../images//blog.gif) no-repeat center;
+    margin-bottom: 50px;
+}
+/* ===================================
+            Breadcrumbs part end
+======================================= */
+
+/* ===================================
+            blog part start
+======================================= */
+#blog_part{
+    margin-bottom: 100px;
+}
+/* ........ search box ......... */
+#blog_part .blog_left .search_box{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.07);
+}
+#blog_part .blog_left .search_box input{
+    padding: 12px 10px;
+    width: 80%;
+    border: 1px solid #ddd;
+    color: #444444;
+    border-radius: 5px;
+}
+#blog_part .blog_left .search_box input::placeholder{
+    font-family: 'Rubik', sans-serif;
+}
+#blog_part .blog_left .search_box i{
+    margin-left: -30px;
+    font-size: 20px;
+    color: #171F32;
+}
+#blog_part .blog_left .search_box i:hover{
+    color: #FF5421;
+}
+/* ........ recent post ......... */
+#blog_part .blog_left .recent_post{
+    padding: 30px 25px;
+    margin-bottom: 50px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.07);
+}
+#blog_part .blog_left .recent_post h4{
+    color: #171F32;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 30px;
+}
+#blog_part .blog_left .recent_post h4::before{
+    content: "";
+    position: absolute;
+    border: 0;
+    width: 50px;
+    height: 2px;
+    background: #ff5421;
+    margin-left: 0;
+    bottom: 0;
+    left: 0;
+}
+#blog_part .blog_left .recent_post .post{
+    display: flex;
+    margin-top: 15px;
+    border-bottom: 1px solid #ddd;
+}
+#blog_part .blog_left .recent_post .post .img{
+    width: 100px;
+    height: 100px;
+}
+#blog_part .blog_left .recent_post .post .text{
+    margin-left: 20px;
+}
+#blog_part .blog_left .recent_post .post .text a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #171F32;
+    font-weight: 600;
+}
+#blog_part .blog_left .recent_post .post .text a:hover{
+    color: #FF5421;
+}
+#blog_part .blog_left .recent_post .post .text .date{
+    display: flex;
+    margin-top: 10px;
+}
+#blog_part .blog_left .recent_post .post .text .date i{
+    color: #FF5421;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#blog_part .blog_left .recent_post .post .text .date h5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FF5421;
+}
+/* ........ categories ......... */
+#blog_part .blog_left .categories{
+    padding: 30px 25px;
+    margin-bottom: 50px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.07);
+}
+#blog_part .blog_left .categories h4{
+    color: #171F32;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 30px;
+}
+#blog_part .blog_left .categories h4::before{
+    content: "";
+    position: absolute;
+    border: 0;
+    width: 50px;
+    height: 2px;
+    background: #ff5421;
+    margin-left: 0;
+    bottom: 0;
+    left: 0;
+}
+#blog_part .blog_left .categories ul li{
+    margin-bottom: 15px;
+    position: relative;
+}
+#blog_part .blog_left .categories ul li::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background: #FF5421;
+}
+#blog_part .blog_left .categories ul li a{
+    color: #171F32;
+    font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
+    padding-left: 15px;
+}
+#blog_part .blog_left .categories ul li a:hover{
+    color: #ff5421;
+    text-decoration: underline;
+}
+/* =========== main post =========== */
+#blog_part .blog_right .main_post{
+    margin-bottom: 50px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.07);
+}
+#blog_part .blog_right .main_post .details{
+    padding: 40px;
+}
+#blog_part .blog_right .main_post .details a{
+    font-family: 'Nunito', sans-serif;
+    color: #171F32;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    padding-bottom: 20px;
+}
+#blog_part .blog_right .main_post .details a:hover{
+    color: #FF5421;
+    text-decoration: underline;
+}
+#blog_part .blog_right .main_post .details .icons_list{
+    display: flex;
+}
+#blog_part .blog_right .main_post .details .icons_list .icone{
+    display: flex;
+    margin-right: 20px;
+}
+#blog_part .blog_right .main_post .details .icons_list .icone i{
+    color: #ff5421;
+    font-size: 14px;
+}
+#blog_part .blog_right .main_post .details .icons_list .icone p{
+    font-family: 'Rubik', sans-serif;
+    color: #171F32;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 8px;
+}
+#blog_part .blog_right .main_post .details .text p{
+    font-family: 'Rubik', sans-serif;
+    color: #505050;
+    font-weight: 400;
+    padding-top: 20px;
+}
+#blog_part .blog_right .main_post .details .text a{
+    color: #171F32;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-top: 20px;
+}
+#blog_part .blog_right .main_post .details .text a:hover{
+    color: #FF5421;
+}
+#blog_part .blog_right .main_post .details .text a i{
+    padding-left: 5px;
+    transition: .4s;
+}
+#blog_part .blog_right .main_post .details .text a:hover i{
+    padding-left: 10px;
+}
+/* ===================================
+            blog part end
+======================================= */
+
+/* ====================================================================
+                        single page post design 
+======================================================================= */
+
+.single_post_row{
+    margin-top: 50px;
+}
+
+/* ====================================================================
+                        single page post design 
+======================================================================= */
